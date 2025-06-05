@@ -11,3 +11,6 @@ TARGET_KERNEL_CONFIG += aml_tab.config
 
 ## Wi-Fi
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+
+# Disable SELINUX
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
